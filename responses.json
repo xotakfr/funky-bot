@@ -1,0 +1,108 @@
+{
+    "8ball": {
+        "1" : "Yes!",
+        "2": "No.",
+        "3": "Maybe.",
+        "4": "That could be possible.",
+        "5": "Think twice.",
+        "6": "That's a no-no.",
+        "7": "I highly doubt it.",
+        "8": "Most likely.",
+        "9": "I'm pretty sure about it.",
+        "10": "Without doubt!"
+    },
+    
+    "avatar": {
+        "LOADING": "Casting a spell...",
+        "FAILED": "I couldn't find an avatar >-<",
+        "SUCCESS": "Avatar of $TARGET_USERNAME$"
+    },
+
+    "ban": {
+        "MISSING_PERMISSIONS": "your're not a Summoner, I wont take any orders from you!",
+        "TARGET_NOT_FOUND": "please mention a valid member of this server.",
+        "TARGET_AUTHOR": "banning yourself is a no-no.",
+        "TARGET_CLIENT": "do you hate me that much? qwq",
+        "TARGET_NOT_BANNABLE": "I cannot ban this user! Do they have a higher role? Do I have ban permissions?",
+        "CONFIRM": "Ehehe ~ Shall we proceed with the ban?",
+        "CANCEL": "No problem! I wont ban this user.",
+        "ERROR": "Sorry $AUTHOR$ I couldn't ban because of: $ERROR$",
+        "TIMEOUT": "Action cancelled due inactivity",
+        "UNKNOWN_INPUT": "I couldn't recognize your order. Action was cancelled."
+    },
+
+    "cat": {
+        "FAILED": "I couldn't reach the cat realm D:"
+    },
+
+    "dog": {
+        "FAILED": "I couldn't reach the dog realm D:"
+    },
+
+    "goodbye": {
+        "MISSING_PERMISSIONS": "your're not a Summoner, I wont take any orders from you!",
+        "CONFIRM_ENABLE": "Aye-aye~ I will send goodbye messages to $CHANNEL$!",
+        "DISABLE_FAILED": "you didn't order me to say goodbye so far.",
+        "DISABLE_SUCCESS": "As you wish! I wont say goodbye in the future.",
+        "SET_MESSAGE": "Aye-aye! ~ How should I say goodbye?",
+        "ERROR": "That didn't went as expected. Error: $ERROR$",
+        "CANCEL": "No problem! No changes have been made.",
+        "TIMEOUT": "Action cancelled due inactivity",
+        "SET_MESSAGE_SUCCESS": "Message set successfully ~",
+        "SHOW_FAILED": "No goodbye message set yet.",
+        "SHOW_SUCCESS": "Current goodbye message:"
+    },
+
+    "icon": {
+        "LOADING": "Casting a spell...",
+        "FAILED": "I couldn't find an icon >-<",
+        "SUCCESS": "Icon of $SERVER_NAME$"
+    },
+
+    "kick": {
+        "MISSING_PERMISSIONS": "your're not a Summoner, I wont take any orders from you!",
+        "TARGET_NOT_FOUND": "please mention a valid member of this server.",
+        "TARGET_AUTHOR": "kicking yourself is a no-no.",
+        "TARGET_CLIENT": "do you hate me that much? qwq",
+        "TARGET_NOT_KICKABLE": "I cannot ban this user! Do they have a higher role? Do I have ban permissions?",
+        "CONFIRM": "Ehehe ~ Shall we proceed with the kick?",
+        "CANCEL": "No problem! I wont kick this user.",
+        "ERROR": "Sorry $AUTHOR$ I couldn't kick because of: $ERROR$",
+        "TIMEOUT": "Action cancelled due inactivity",
+        "UNKNOWN_INPUT": "I couldn't recognize your order. Action was cancelled."
+    },
+
+    "neko": {
+        "FAILED": "I couldn't reach the neko realm D:"
+    },
+
+    "prune": {
+        "MISSING_PERMISSIONS": "your're not a Summoner, I wont take any orders from you!",
+        "WRONG_DELETE_COUNT": "Please use a number between 1 and 100. I can't delete less, and more are just too troublesome.",
+        "ERROR": "Sorry $AUTHOR$ I couldn't delete because of: $ERROR$",
+        "SUCCESS": "Deleted $COUNT_DELETED_MESSAGES$ messages. Please praise me c:"
+    },
+
+    "stats": {
+        "MISSING_PERMISSIONS": "your're not a Summoner, I wont take any orders from you!",
+        "ENABLE_SUCCESS": "Yush~ I will send user statistics to $CHANNEL$!",
+        "DISABLE_FAILED": "you didn't order me to send statistics so far.",
+        "DISABLE_SUCCESS": "As you wish! I wont send statistics in the future.",
+        "SHOW_FAILED": "No stats have been created so far.",
+        "SHOW_SUCCESS": "Most recent statistics:"
+    },
+
+    "welcome": {
+        "MISSING_PERMISSIONS": "your're not a Summoner, I wont take any orders from you!",
+        "ENABLE_SUCCESS": "Alrighty~ I will send welcome messages to $CHANNEL$!",
+        "DISABLE_FAILED": "you didn't order me to greet new members so far.",
+        "DISABLE_SUCCESS": "As you wish! I wont greet new peeps in the future.",
+        "SET_MESSAGE": "Alrighty! ~ How should I welcome new peeps?",
+        "ERROR": "That didn't went as expected. Error: $ERROR$",
+        "CANCEL": "No problem! No changes have been made.",
+        "TIMEOUT": "Action cancelled due inactivity",
+        "SET_MESSAGE_SUCCESS": "Message set successfully ~",
+        "SHOW_FAILED": "No welcome message set yet.",
+        "SHOW_SUCCESS": "Current welcome message:"
+    }
+}
