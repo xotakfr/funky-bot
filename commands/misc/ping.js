@@ -1,9 +1,8 @@
-const { EmbedBuilder } = require('discord.js')
-
 module.exports = {
     data: {
         name: "ping",
-        description: "Replies with stats about bot latency!"
+        description: "Replies with stats about bot latency!",
+        args: "None"
     },
     async execute(message, args) {
         const wsPing = message.client.ws.ping

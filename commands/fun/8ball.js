@@ -3,7 +3,8 @@ const responseObj = require("../../responses.json")
 module.exports = {
     data: {
         name: "8ball",
-        description: "Let the mighty 8ball answer all your questions."
+        description: "Let the mighty 8ball answer all your questions.",
+        args: "None"
     },
     async execute(message, args) {
         const cmd = this.data.name

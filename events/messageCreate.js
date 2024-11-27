@@ -9,7 +9,7 @@ module.exports = {
         if (message.content.startsWith(prefix)) {
             const args = message.content.slice(prefix.length).split(" ")
             const command = message.client.commands.get(args.shift().toLowerCase())
-
+            if (!command) return;
             await command.execute(message, args)
         }
     }
